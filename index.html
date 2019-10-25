@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather Circles</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <main id="main">
+
+  <header id="header">
+   <h1>Weather Circles</h1> 
+   </header>
+
+  <body id="body">
+
+    <p>
+      Enter a City : <input id ="city" value="Milwaukee" />
+      <br/>
+      <br/>
+
+      <button id="submit">Check Weather</button>
+      <br/>
+      <br/>
+      <br/>
+    </p>
+
+   
+
+    <p id="desc">
+      As a visual representation, a yellow circle will appear over the orange and red circles. The yellow represents the current temperature, while red is 58 C, the hottest weather recorded on earth, and orange is 75.6 C, or about 100 F.
+      <br/><br/>
+      A green circle representing humidity will appear over the blue circle. The blue circle represents 100% humidity.
+      <br/><br/> Weather information sourced from OpenWeather.
+      <br/>
+      <br/>
+    </p>
+
+    <div id="purpleBox">
+      <!--canvas position-->
+    </div>
+
+    
+  
+  </body>
+  </main>
+  
+  <footer id="foot"> 
+    <a  href= "https://openweathermap.org">Open Weather</a>
+  </footer>
+</html>

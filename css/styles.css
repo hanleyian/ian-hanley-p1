@@ -1,0 +1,73 @@
+#header {
+    text-align: center;
+    z-index: 1;
+    background-color: burlywood;
+    position: relative;
+    width: 50%;
+    right: 25%;
+    left: 25%;
+    top: 0px;
+    height: 8%;
+    border-radius: 8px;
+
+
+     
+}
+
+
+
+#main {
+background-color: skyblue;
+background-size: 100%;
+
+}
+
+#body {
+    background-color: skyblue;
+}
+
+#city {
+    position: relative;
+    top: 10%;
+    height: 10%;
+    
+    
+   
+}
+
+#desc {
+    position: relative;
+    top: 20%;
+
+}
+
+#submit {
+    border-radius: 8px;
+   background-color: 131, 138, 131;
+   
+}
+
+#submit:hover {
+    background-color: rgb(20, 158, 212);
+}
+
+#purpleBox {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+#foot {
+    
+   text-align: center;
+   position: fixed;
+   bottom: 0%;
+   width: 100%;
+  
+   
+      z-index: -1;
+    
+    background-color: lightskyblue;
+    
+
+}
